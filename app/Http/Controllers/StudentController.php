@@ -35,9 +35,9 @@ class StudentController
       'enfermedades' => 'nullable|string',
       'medicamentos' => 'nullable|string',
       'aprovechamiento' => 'required|string',
-      'cadeteFAR' => 'required|in:Sí,No',
-      'cadeteMININT' => 'required|in:Sí,No',
-      'militante' => 'required|in:Sí,No',
+      'cadeteFAR' => 'required|in:si,no',
+      'cadeteMININT' => 'required|in:si,no',
+      'militante' => 'required|in:si,no',
       'proceso' => 'nullable|string',
     ]);
 
